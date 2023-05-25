@@ -12,15 +12,15 @@ Aplikasi sisi client dibangun menggunakan ReactJS dan TailwindCSS. Terdiri dari 
 
 
 ## Cara Menjalankan Aplikasi
-* Pada aplikasi sisi client jalankan script berikut
+Pada aplikasi sisi client jalankan script berikut
 ```bash
 npm run start
 ```
-* Pada aplikasi sisi server sebelum aplikasi dijalankan pastikan dilakukan migrasi terlebih dahulu dengan cara menjalankan script berikut 
+Pada aplikasi sisi server sebelum aplikasi dijalankan pastikan dilakukan migrasi terlebih dahulu dengan cara menjalankan script berikut 
 ```bash
 npx sequelize-cli db:migrate
 ```
-* Setelah dilakukan migrasi Server dapat dijalankan dengan script berikut
+Setelah dilakukan migrasi Server dapat dijalankan dengan script berikut
 ```bash
 node app.js
 ```
